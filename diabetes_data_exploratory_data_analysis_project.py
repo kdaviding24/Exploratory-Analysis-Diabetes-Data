@@ -29,4 +29,4 @@ null_list = ['Glucose', 'BloodPressure', 'Insulin', 'SkinThickness', 'BMI']
 
 for column in null_list:
   data[column].fillna(data[column].median(), inplace = True)
-# updated null values with the medians for each column based on hight standard distribution
+# updated null values with the medians for each column based on hight standard deviation
